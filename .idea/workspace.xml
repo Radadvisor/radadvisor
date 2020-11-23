@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f570bb05-fddb-4666-870c-ee1f2f3b2b74" name="Default Changelist" comment="" />
+    <list default="true" id="f570bb05-fddb-4666-870c-ee1f2f3b2b74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoherokuapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoherokuapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoherokuapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoherokuapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +27,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="djangoherokuapp" type="Python.DjangoServer" factoryName="Django server">
@@ -29,6 +46,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangoherokuapp.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -55,11 +73,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606128271596</updated>
-      <workItem from="1606128275161" duration="817000" />
+      <workItem from="1606128275161" duration="6466000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1606136682197">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606136682197" />
+    <state width="1358" height="217" key="GridCell.Tab.0.center" timestamp="1606136682196">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606136682196" />
+    <state width="1358" height="217" key="GridCell.Tab.0.left" timestamp="1606136682195">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606136682195" />
+    <state width="1358" height="217" key="GridCell.Tab.0.right" timestamp="1606136682196">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606136682196" />
   </component>
 </project>

@@ -1,7 +1,9 @@
 
 from django.urls import path
-from herokuapp.views import homePageView
+from .views import homePageView, AboutPageView
 
 urlpatterns = [
-    path('', homePageView, name='home')
+    path('about/', AboutPageView.as_view(), name='about'),
+    path('', homePageView.as_view(), name='home'),
+    path('home/', homePageView.as_view(), name='home'),
 ]
