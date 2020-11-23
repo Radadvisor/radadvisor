@@ -20,18 +20,22 @@
 </br>
 </br>
 </br>
+<!--
 <form action="/todo/" method="post">{% csrf_token %}
     <label for="todo">Go to your ToDo List:</label>
     <input type="submit" name="todo" id="todo" value="Todo-List"/>
 </form>
+-->
 </br>
 <form action="/products/" method="post">{% csrf_token %}
     <label for="rad">Go to the Radvisory:</label>
     <input type="image" src="{% static 'images/bikerad.JPG' %}" width="60" height="40" name="rad" id="rad" value="Radvisory"/>
 </form>
+<!--
 <form action="/about/" method="post">{% csrf_token %}
     <label for="about">Go to about:</label>
     <input type="image" src="{% static 'images/copy.JPG' %}" width="60" height="40" name="rad" id="rad" value="Radvisory"/>
 </form>
+-->
 </body>
 </html>
