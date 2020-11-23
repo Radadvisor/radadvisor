@@ -13,6 +13,9 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 #import django_heroku
 import os
+import dj_database_url
+from whitenoise import WhiteNoise
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -42,6 +45,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.storage.CompressedManifestStaticFilesStorage',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -76,17 +80,24 @@ WSGI_APPLICATION = 'djangoherokuapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'd2bl7pl6f00g0r',
+#       'USER':'qquvzqdnuwrzug',
+#        'PASSWORD':'2db57e676e5cb4ee00c4a8be9fb5b738f69d340f4653e2cfcb0fce1d998df555',
+#        'HOST':'ec2-23-23-36-227.compute-1.amazonaws.com',
+#        'PORT':'5432',
+#    }
+#}
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd2bl7pl6f00g0r',
-        'USER':'qquvzqdnuwrzug',
-        'PASSWORD':'2db57e676e5cb4ee00c4a8be9fb5b738f69d340f4653e2cfcb0fce1d998df555',
-        'HOST':'ec2-23-23-36-227.compute-1.amazonaws.com',
-        'PORT':'5432',
+    'default' : {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+prod_db  =  dj_database_url.config(conn_max_age=600, ssl_require=True)
+DATABASES['default'].update(prod_db)
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -136,8 +147,6 @@ STATICFILES_DIRS = (
 )
 
 #  Add configuration for static files storage using whitenoise
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-import dj_database_url 
-prod_db  =  dj_database_url.config(conn_max_age=500, ssl_require=True)
-DATABASES['default'].update(prod_db)
+
