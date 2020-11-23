@@ -1,10 +1,37 @@
-<!-- templates/radadvisor/home.html -->
-<! DOCTYPE html>
-<!-- templates/home.html -->
-{% extends 'base.html' %}
-
-{% block content %}
-    <title>Radadvisor</title>
-<h2> Willkommen beim Radadvisor!!</h2>
-<h3> Wir sind endlich Online! </h3>
-{% endblock content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radvisory</title>
+     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}"/>
+</head>
+<body>
+<div class="page-header">
+    <h1><a href="/">This is the Homepage of Radvisory</a></h1>
+</div>
+<p>Feel welcome and cozy with this images</p>
+<img src="{% static 'images/tm-bg-section-4.jpg' %}" width="600" height="400" alt="Cozy image">
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<form action="/todo/" method="post">{% csrf_token %}
+    <label for="todo">Go to your ToDo List:</label>
+    <input type="submit" name="todo" id="todo" value="Todo-List"/>
+</form>
+</br>
+<form action="/products/" method="post">{% csrf_token %}
+    <label for="rad">Go to the Radvisory:</label>
+    <input type="image" src="{% static 'images/bikerad.JPG' %}" width="60" height="40" name="rad" id="rad" value="Radvisory"/>
+</form>
+<form action="/about/" method="post">{% csrf_token %}
+    <label for="about">Go to about:</label>
+    <input type="image" src="{% static 'images/copy.JPG' %}" width="60" height="40" name="rad" id="rad" value="Radvisory"/>
+</form>
+</body>
+</html>

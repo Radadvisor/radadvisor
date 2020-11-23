@@ -21,42 +21,61 @@
   <component name="ChangeListManager">
     <list default="true" id="f570bb05-fddb-4666-870c-ee1f2f3b2b74" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoherokuapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoherokuapp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoherokuapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoherokuapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoherokuapp/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoherokuapp/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herokuapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herokuapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herokuapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="6535a432-f755-4b60-926a-3992c4e515c2" />
   <component name="ProjectId" id="1kghiFdxoP1zyQuU8cG9oRQPbES" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/djangoherokuapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/djangoherokuapp" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
     </key>
@@ -95,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606128271596</updated>
-      <workItem from="1606128275161" duration="10122000" />
+      <workItem from="1606128275161" duration="14645000" />
     </task>
     <servers />
   </component>
@@ -114,21 +133,29 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1606146513233">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1133" height="217" key="GridCell.Tab.0.bottom" timestamp="1606153091964">
+      <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606146513233" />
-    <state width="1358" height="217" key="GridCell.Tab.0.center" timestamp="1606146513231">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1133" height="217" key="GridCell.Tab.0.bottom/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606153091964" />
+    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606146928112" />
+    <state width="1133" height="217" key="GridCell.Tab.0.center" timestamp="1606153091963">
+      <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606146513231" />
-    <state width="1358" height="217" key="GridCell.Tab.0.left" timestamp="1606146513229">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1133" height="217" key="GridCell.Tab.0.center/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606153091963" />
+    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606146928111" />
+    <state width="1133" height="217" key="GridCell.Tab.0.left" timestamp="1606153091962">
+      <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606146513229" />
-    <state width="1358" height="217" key="GridCell.Tab.0.right" timestamp="1606146513232">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1133" height="217" key="GridCell.Tab.0.left/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606153091962" />
+    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606146928110" />
+    <state width="1133" height="217" key="GridCell.Tab.0.right" timestamp="1606153091964">
+      <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606146513232" />
+    <state width="1133" height="217" key="GridCell.Tab.0.right/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606153091964" />
+    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606146928111" />
+    <state x="-1840" y="56" key="SettingsEditor" timestamp="1606151143752">
+      <screen x="-1920" y="-168" width="1920" height="1177" />
+    </state>
+    <state x="-1840" y="56" key="SettingsEditor/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606151143752" />
   </component>
 </project>
