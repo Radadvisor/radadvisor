@@ -4,6 +4,7 @@ from django.urls import path
 from home.views import homepage
 from products.views import products
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', homepage),
