@@ -10,12 +10,12 @@ class Migration(migrations.Migration):
     dependencies = [
     ]
 
-    operations = (
+    operations = [
         migrations.CreateModel(
             name='BewertungItem',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('content', models.TextField()),
             ],
-        ),
-    )
+        )
+    ]

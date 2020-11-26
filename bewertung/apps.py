@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class Bewertung(AppConfig):
+class BewertungConfig(AppConfig):
     name = 'bewertung'
