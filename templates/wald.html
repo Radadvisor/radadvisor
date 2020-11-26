@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>BeRADung</title>
+    <title>Radvisory</title>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'CSS/test.css' %}"/>
     <link rel="stylesheet" href="https://pagecdn.io/lib/easyfonts/bruno-ace.css"/>
@@ -21,9 +21,9 @@
                 <div class="collapse navbar-collapse" id="navbarToggle">
                     <div class="navbar-nav mr-auto">
                         <a class="nav-item nav-link" href="/home">Home</a>
-                        <a class="nav-item nav-link" href="/bikes">BeRADung</a>
+                        <a class="nav-item nav-link" href="/electric">BeRADung</a>
                         <a class="nav-item nav-link" href="/kontakt">Kontakt</a>
-                        <a class="nav-item nav-link" href="/bewertung">Gib uns gern Feedback</a>
+                        <a class="nav-item nav-link" href="/bewertung">Gib uns Feedback!</a>
                     </div>
             <!-- Navbar Right Side -->
                 </div>
@@ -32,28 +32,46 @@
     </header>
     <main role="main" class="container">
       <div class="row">
-
+          <div class="col-md-8">
+              <p>Beantworte die Fragen, so dass wir dir dein perfektes Fahrrad vorschlagen können. Rechts neben den Fragen siehst du eine Auflistung deiner bisher gegebenen Antworten. Viel Spaß.<p/>
+          </div>
+          </br>
+          </br>
           </br>
           </br>
         <div class="col-md-8">
-          <p>Im Wald und auf Kies kannst du folgende Fahrräder benutzen...<p/>
-            <ul class="list-group">
-                <li class="list-group-item list-group-item-light">Mountain Bike</li>
-                <li class="list-group-item list-group-item-light">Gravel Bike</li>
-            </ul>
+            <h3>Frage 3:</h3>
             </br>
-            </br>
-            <div class="col-md-8">
-              <p>Diese und mehrere Bikes findest du bei <a href="https://badbikes-online.de/">Bad Bikes</a><p/>
-          </div>
+            <p align="center"><b>Wie möchtest du mit deinem Fahrrad fahren?</b><p/>
+            <table style="width:35%" cellpadding="25" align="center">
+                <tr>
+                    <td></td>
+                    <td align="center">
+                        <form action="sportlich/" method="post">{% csrf_token %}
+                            <input type="image" src="{% static 'images/rennen.png' %}" width="150" height="100" name="sport" id="sport" value="sportlich"/>
+                            <label for="sport">Sportlich</label>
+                        </form>
+                    </td>
+                    <td align="center">
+                        <form action="normal/" method="post">{% csrf_token %}
+                            <input type="image" src="{% static 'images/radfahren.png' %}" width="150" height="100" name="normal" id="normal" value="normal"/>
+                            <label for="normal">Normal</label>
+                        </form>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
         </div>
         <div class="col-md-4">
           <div class="content-section">
-            <h3>Your Bike is waiting</h3>
-            <p class='text-muted'>Hier siehst du deine Antworten:
+            <h3>Hier siehst du deine Antworten:</h3>
+            <p class='text-muted'>
               <ul class="list-group">
                 <li class="list-group-item list-group-item-light">Deine Antwort auf Frage 1 war:</li>
-                <li class="list-group-item list-group-item-light"><img src="{% static 'images/trees.jpg' %}" width="150" height="100" alt="Road"></li>
+                <li class="list-group-item list-group-item-light"><img src="{% static 'images/bizeps.png' %}" width="150" height="100" alt="ebike"></li>
+                <li class="list-group-item list-group-item-light">Eigene Muskelkraft</li>
+              <li class="list-group-item list-group-item-light">Deine Antwort auf Frage 2 war:</li>
+                <li class="list-group-item list-group-item-light"><img src="{% static 'images/trees.JPG' %}" width="150" height="100" alt="Road"></li>
                 <li class="list-group-item list-group-item-light">Wald/Kies</li>
               </ul>
             </p>
@@ -61,7 +79,6 @@
         </div>
       </div>
     </main>
-
 
 </body>
 </html>

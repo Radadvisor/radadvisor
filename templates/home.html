@@ -1,12 +1,13 @@
 {% load static %}
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>BeRADung</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <title>Radvisory</title>
+     <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main1.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'CSS/test.css' %}"/>
     <link rel="stylesheet" href="https://pagecdn.io/lib/easyfonts/bruno-ace.css"/>
 </head>
@@ -21,9 +22,9 @@
                 <div class="collapse navbar-collapse" id="navbarToggle">
                     <div class="navbar-nav mr-auto">
                         <a class="nav-item nav-link" href="/home">Home</a>
-                        <a class="nav-item nav-link" href="/bikes">BeRADung</a>
+                        <a class="nav-item nav-link" href="/electric">BeRADung</a>
                         <a class="nav-item nav-link" href="/kontakt">Kontakt</a>
-                        <a class="nav-item nav-link" href="/bewertung">Gib uns gern Feedback</a>
+                        <a class="nav-item nav-link" href="/bewertung">Gib uns Feedback!</a>
                     </div>
             <!-- Navbar Right Side -->
                 </div>
@@ -33,26 +34,29 @@
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-6">
-            <p>Willkommen auf der Website vom StartUP Be<b>RAD</b>ung</p>
-            <img src="{% static 'images/Logo2.png' %}" width="200" height="150" alt="Logo">
-            </br>
+            <p><b>Willkommen auf der Website vom Startup be<b>RAD</b>ung</b></p>
+            <img src="{% static 'images/Logo3.png' %}" width="539" height="357" alt="Logo">
             </br>
             <p><big><b>Unsere Vison:</b></big></p>
-            <p><big>Wir wollen Leute beim Online-Shopping unterstützen und ihnen auch im Internet eine Fachberatung ermöglichen.</big></p>
-            <p><big>Mit uns findest du das für passende Fahrrad für dich!</big></p>
+            </br>
+            <p><big>Wir wollen Leute beim Online-Shopping unetrstürtzen und ihnen auch im Internet eine Fachberatung ermöglichen!</big></p>
+            </br>
+             <p><big>Mit uns findest du das passenende Fahrrad für dich!</big></p>
+            <p><big>Starte hier deine persönliche Beratung!</big></p>
             </br>
             </br>
-            <p><big>Lerne das BeRADung-Team kennen.</big></p>
+            <p><big><b>Lerne das BeRADung-Team kennen.</b></big></p>
+
         </div>
             <table style="width:100%">
                 <tr>
                     <td>
                         <div class="col-md-10">
                             <div class="content-section">
-                                <h3>Felix</h3>
-                                <p class='text-muted'>Felix is our CTO
+                                <h3>Viola</h3>
+                                <p class='text-muted'>Viola - unsere Designexpertin
                                 <ul class="list-group">
-                                <li class="list-group-item list-group-item-light">Text über Felix... fdlkgjfd gdfjgld fgj/nn klfjg fdlökjg lkdfjg lkkdfjg lkfdjg sdlfkg sdflökjg löfdks jg  fldkjgdflkööjg ldkfgj fjg<.</li>
+                                <li class="list-group-item list-group-item-light">Viola entwickelt alle unsere Logos und Desgins.</li>
                             </ul>
                                 </p>
                             </div>
@@ -62,9 +66,9 @@
                         <div class="col-md-10">
                             <div class="content-section">
                                 <h3>Frauke</h3>
-                                <p class='text-muted'>Frauke is our Marketing Chief
+                                <p class='text-muted'>Frauke - unsere Marketingexpertin
                                 <ul class="list-group">
-                                <li class="list-group-item list-group-item-light">Text über Frauke... fdlkgjfd gdfjgld fgj/nn klfjg fdlökjg lkdfjg lkkdfjg lkfdjg sdlfkg sdflökjg löfdks jg  fldkjgdflkööjg ldkfgj fjg<</li>
+                                <li class="list-group-item list-group-item-light">Frauke sorgt dafür, dass alle von uns hören und uns folgen!</li>
                             </ul>
                                 </p>
                             </div>
@@ -74,9 +78,9 @@
                         <div class="col-md-10">
                             <div class="content-section">
                                 <h3>Jonas</h3>
-                                <p class='text-muted'>Jonas is our Chief of Finance
+                                <p class='text-muted'>Jonas - unser Zahlenexperte
                                 <ul class="list-group">
-                                <li class="list-group-item list-group-item-light">Text über Jonas... fdlkgjfd gdfjgld fgj/nn klfjg fdlökjg lkdfjg lkkdfjg lkfdjg sdlfkg sdflökjg löfdks jg  fldkjgdflkööjg ldkfgj fjg</li>
+                                <li class="list-group-item list-group-item-light">Jonas sorgt dafür, dass am Ende die schwarze Null steht!</li>
                             </ul>
                                 </p>
                             </div>
@@ -88,9 +92,9 @@
                         <div class="col-md-10">
                             <div class="content-section">
                                 <h3>Marco</h3>
-                                <p class='text-muted'>Marco is our CIO
+                                <p class='text-muted'>Marco - unser Geschäftführer
                                 <ul class="list-group">
-                                <li class="list-group-item list-group-item-light">Text über Marco...fdlkgjfd gdfjgld fgj/nn klfjg fdlökjg lkdfjg lkkdfjg lkfdjg sdlfkg sdflökjg löfdks jg  fldkjgdflkööjg ldkfgj fjg</li>
+                                <li class="list-group-item list-group-item-light">Marco leitet all unsere Geschicke!</li>
                             </ul>
                                 </p>
                             </div>
@@ -99,10 +103,10 @@
                     <td>
                         <div class="col-md-10">
                             <div class="content-section">
-                                <h3>Viola</h3>
-                                <p class='text-muted'>Jonas is our Chief of Design
+                                <h3>Felix</h3>
+                                <p class='text-muted'>Felix - unser IT Experte
                                 <ul class="list-group">
-                                <li class="list-group-item list-group-item-light">Text über Viola...fdlkgjfd gdfjgld fgj/nn klfjg fdlökjg lkdfjg lkkdfjg lkfdjg sdlfkg sdflökjg löfdks jg  fldkjgdflkööjg ldkfgj fjg</li>
+                                <li class="list-group-item list-group-item-light">Felix sorgt dafür, dass die Website läuft!</li>
                             </ul>
                                 </p>
                             </div>

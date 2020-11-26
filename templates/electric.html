@@ -40,22 +40,22 @@
           </br>
           </br>
         <div class="col-md-8">
-            <h3>Frage 3:</h3>
+            <h3>Frage 1:</h3>
             </br>
-            <p align="center"><b>Möchtest du dein Fahrrad zusammenfalten können oder ein normales Fahrrad?</b><p/>
+            <p align="center"><b>Möchtest du unterstützt werden von einem Motor beim Fahrrad fahren oder mit eigener Muskelkraft fahren?</b><p/>
             <table style="width:35%" cellpadding="25" align="center">
                 <tr>
                     <td></td>
                     <td align="center">
-                        <form action="falten/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/falten.png' %}" width="150" height="100" name="falt" id="falt" value="faltbar"/>
-                            <label for="falt">Faltbar</label>
+                        <form action="/electric/ebike/" method="post">{% csrf_token %}
+                            <input type="image" src="{% static 'images/akku.png' %}" width="150" height="100" name="electric" id="electric" value="Unterstützung"/>
+                            <label for="electric">Unterstützung durch Motor</label>
                         </form>
                     </td>
                     <td align="center">
-                        <form action="normal/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/rechteck.png' %}" width="150" height="100" name="normal" id="normal" value="normal"/>
-                            <label for="normal">Normal</label>
+                        <form action="/noelectric/bikes/" method="post">{% csrf_token %}
+                            <input type="image" src="{% static 'images/bizeps.png' %}" width="150" height="100" name="noelectric" id="noelectric" value="Eigene Muskelkraft"/>
+                            <label for="noelectric">Eigene Muskelkraft</label>
                         </form>
                     </td>
                     <td></td>
@@ -64,15 +64,12 @@
         </div>
         <div class="col-md-4">
           <div class="content-section">
-            <h3>Hier siehst du deine Antworten:</h3>
+            <h3>Hier siehst du deine zukünftigen Antworten:</h3>
             <p class='text-muted'>
               <ul class="list-group">
-                <li class="list-group-item list-group-item-light">Deine Antwort auf Frage 1 war:</li>
-                <li class="list-group-item list-group-item-light"><img src="{% static 'images/bizeps.png' %}" width="150" height="100" alt="ebike"></li>
-                <li class="list-group-item list-group-item-light">Eigene Muskelkraft</li>
-              <li class="list-group-item list-group-item-light">Deine Antwort auf Frage 2 war:</li>
-                <li class="list-group-item list-group-item-light"><img src="{% static 'images/traffic.JPG' %}" width="150" height="100" alt="Road"></li>
-                <li class="list-group-item list-group-item-light">Stadt</li>
+                <li class="list-group-item list-group-item-light">...</li>
+                <li class="list-group-item list-group-item-light">...</li>
+                <li class="list-group-item list-group-item-light">...</li>
               </ul>
             </p>
           </div>

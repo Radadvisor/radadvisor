@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>BeRADung</title>
+    <title>Radvisory</title>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'CSS/test.css' %}"/>
     <link rel="stylesheet" href="https://pagecdn.io/lib/easyfonts/bruno-ace.css"/>
@@ -21,9 +21,9 @@
                 <div class="collapse navbar-collapse" id="navbarToggle">
                     <div class="navbar-nav mr-auto">
                         <a class="nav-item nav-link" href="/home">Home</a>
-                        <a class="nav-item nav-link" href="/bikes">BeRADung</a>
+                        <a class="nav-item nav-link" href="/electric">BeRADung</a>
                         <a class="nav-item nav-link" href="/kontakt">Kontakt</a>
-                        <a class="nav-item nav-link" href="/bewertung">Gib uns gern Feedback</a>
+                        <a class="nav-item nav-link" href="/bewertung">Gib uns Feedback!</a>
                     </div>
             <!-- Navbar Right Side -->
                 </div>
@@ -40,19 +40,21 @@
           </br>
           </br>
         <div class="col-md-8">
+            <h3>Frage 2:</h3>
+            </br>
             <p align="center"><b>Auf welchem Terrain möchtest du mit deinem neuen Fahrrad fahren?</b><p/>
             <table style="width:35%" cellpadding="25" align="center">
                 <tr>
                     <td></td>
                     <td align="center">
-                        <form action="/bikes/strasse/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/road.jpg' %}" width="150" height="100" name="road" id="road" value="Road"/>
+                        <form action="strasse/" method="post">{% csrf_token %}
+                            <input type="image" src="{% static 'images/road.JPG' %}" width="150" height="100" name="road" id="road" value="Road"/>
                             <label for="road">Straße</label>
                         </form>
                     </td>
                     <td align="center">
-                        <form action="/bikes/bergig/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/mountain-biking.jpg' %}" width="150" height="100" name="mountain" id="mountain" value="Mountain"/>
+                        <form action="bergig/" method="post">{% csrf_token %}
+                            <input type="image" src="{% static 'images/mountain-biking.JPG' %}" width="150" height="100" name="mountain" id="mountain" value="Mountain"/>
                             <label for="mountain">Berge</label>
                         </form>
                     </td>
@@ -61,14 +63,14 @@
                 <tr>
                     <td></td>
                     <td align="center">
-                        <form action="/bikes/wald/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/trees.jpg' %}" width="150" height="100" name="forrest" id="forrest" value="Forrest"/>
+                        <form action="wald/" method="post">{% csrf_token %}
+                            <input type="image" src="{% static 'images/trees.JPG' %}" width="150" height="100" name="forrest" id="forrest" value="Forrest"/>
                             <label for="forrest">Wald/Kies</label>
                         </form>
                     </td>
                     <td align="center">
-                        <form action="/bikes/stadt/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/traffic.jpg' %}" width="150" height="100" name="city" id="city" value="City"/>
+                        <form action="stadt/" method="post">{% csrf_token %}
+                            <input type="image" src="{% static 'images/traffic.JPG' %}" width="150" height="100" name="city" id="city" value="City"/>
                             <label for="city">Stadt</label>
                         </form>
                     </td>
@@ -78,12 +80,12 @@
         </div>
         <div class="col-md-4">
           <div class="content-section">
-            <h3>Dein Fahrrad wartet bereits auf dich</h3>
-            <p class='text-muted'>Hier siehst du deine zukünftigen Antworten:
+            <h3>Hier siehst du deine Antworten:</h3>
+            <p class='text-muted'>
               <ul class="list-group">
-                <li class="list-group-item list-group-item-light">...</li>
-                <li class="list-group-item list-group-item-light">...</li>
-                <li class="list-group-item list-group-item-light">...</li>
+                <li class="list-group-item list-group-item-light">Deine Antwort auf Frage 1 war:</li>
+                <li class="list-group-item list-group-item-light"><img src="{% static 'images/bizeps.png' %}" width="150" height="100" alt="ebike"></li>
+                <li class="list-group-item list-group-item-light">Eigene Muskelkraft</li>
               </ul>
             </p>
           </div>
