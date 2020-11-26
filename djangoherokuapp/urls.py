@@ -11,6 +11,7 @@ from bikes.views import bikes, wald, strasse, bergig, stadt, electric, ebike, wa
 urlpatterns = [
     path('', homepage),
     path('home/', homepage),
+    path('bikes/', homepage),
     path('admin/', admin.site.urls),
     path('noelectric/bikes/', bikes),
     path('noelectric/bikes/wald/', wald),
