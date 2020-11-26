@@ -1,40 +1,116 @@
 {% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>beRADung</title>
-     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Radvisory</title>
+     <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main1.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/test.css' %}"/>
+    <link rel="stylesheet" href="https://pagecdn.io/lib/easyfonts/bruno-ace.css"/>
 </head>
 <body>
-<div class="page-header">
-    <h1><a href="/">Willkommen beim der be<b>RAD</b>ung</a></h1>
-</div>
-</br>
-<img src="{% static 'images/fahrraeder.jpg' %}" width="1019" height="571" alt="Fahrräder">
-</br>
-<p >Wir können dir helfen!</p>
-<p >Wir, das sind Frauke, Viola, Jonas, Marco & Felix von be<b>RAD</b>ung, ein junges Startup aus der Smart Startup Garage der Hochschule Harz.</p>
-<p>Unsere Vison ist es, Leute beim Online-Kauf wie im Geschäft zu beraten und das optimale Produkt für sie zu finden!</p>
-<p> Mit be<b>RAD</b> findest du das passende Fahrrad für dich!</p>
-</br>
-</br>
-<!--
-<form action="/todo/" method="post">{% csrf_token %}
-    <label for="todo">Go to your ToDo List:</label>
-    <input type="submit" name="todo" id="todo" value="Todo-List"/>
-</form>
--->
-</br>
-<form action="/products/" method="post">{% csrf_token %}
-    <label for="rad">Mit nur einem Klick geht es los!:</label>
-    <input type="image" src="{% static 'images/bikerad.JPG' %}" width="60" height="40" name="rad" id="rad" value="Radvisory"/>
-</form>
-<!--
-<form action="/about/" method="post">{% csrf_token %}
-    <label for="about">Go to about:</label>
-    <input type="image" src="{% static 'images/copy.JPG' %}" width="60" height="40" name="rad" id="rad" value="Radvisory"/>
-</form>
--->
+<header class="site-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+            <div class="container">
+                <a class="navbar-brand mr-4" href="/">BeRADung</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="navbar-nav mr-auto">
+                        <a class="nav-item nav-link" href="/home">Home</a>
+                        <a class="nav-item nav-link" href="/bikes">BeRADung</a>
+                        <a class="nav-item nav-link" href="/todo">Todo List</a>
+                    </div>
+            <!-- Navbar Right Side -->
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#">Login</a>
+                        <a class="nav-item nav-link" href="#">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <p><b>Feel welcome and cozy with this images</b></p>
+            <img src="{% static 'images/tm-bg-section-4.jpg' %}" width="600" height="400" alt="Cozy image">
+            </br>
+            </br>
+            <p><big><b>Lerne das BeRADung-Team kennen.</b></big></p>
 
+        </div>
+            <table style="width:100%">
+                <tr>
+                    <td>
+                        <div class="col-md-10">
+                            <div class="content-section">
+                                <h3>Felix</h3>
+                                <p class='text-muted'>Felix is our CTO
+                                <ul class="list-group">
+                                <li class="list-group-item list-group-item-light">Text über Felix... fdlkgjfd gdfjgld fgj/nn klfjg fdlökjg lkdfjg lkkdfjg lkfdjg sdlfkg sdflökjg löfdks jg  fldkjgdflkööjg ldkfgj fjg<.</li>
+                            </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-md-10">
+                            <div class="content-section">
+                                <h3>Frauke</h3>
+                                <p class='text-muted'>Frauke is our Marketing Chief
+                                <ul class="list-group">
+                                <li class="list-group-item list-group-item-light">Text über Frauke... fdlkgjfd gdfjgld fgj/nn klfjg fdlökjg lkdfjg lkkdfjg lkfdjg sdlfkg sdflökjg löfdks jg  fldkjgdflkööjg ldkfgj fjg<</li>
+                            </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-md-10">
+                            <div class="content-section">
+                                <h3>Jonas</h3>
+                                <p class='text-muted'>Jonas is our Chief of Finance
+                                <ul class="list-group">
+                                <li class="list-group-item list-group-item-light">Text über Jonas... fdlkgjfd gdfjgld fgj/nn klfjg fdlökjg lkdfjg lkkdfjg lkfdjg sdlfkg sdflökjg löfdks jg  fldkjgdflkööjg ldkfgj fjg</li>
+                            </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="col-md-10">
+                            <div class="content-section">
+                                <h3>Marco</h3>
+                                <p class='text-muted'>Marco is our CIO
+                                <ul class="list-group">
+                                <li class="list-group-item list-group-item-light">Text über Marco...</li>
+                            </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-md-10">
+                            <div class="content-section">
+                                <h3>Viola</h3>
+                                <p class='text-muted'>Jonas is our Chief of Design
+                                <ul class="list-group">
+                                <li class="list-group-item list-group-item-light">Text über Viola...</li>
+                            </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+      </div>
+    </main>
 </body>
 </html>
