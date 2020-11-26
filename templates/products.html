@@ -11,7 +11,7 @@
     <h1><a href="/">Willkommen beim der be<b>RAD</b>ung</a></h1>
 </div>
 
-<p>Where do you want to ride your bike?<p/>
+<p>Wo wirst du mit deinem neuen Fahrrad hauptsächlich unterwegs sein?<p/>
 <table style="width:35%">
   <tr>
     <th><img src="{% static 'images/road.jpg' %}" width="150" height="100" alt="Road"></th>
@@ -20,10 +20,10 @@
       <th><img src="{% static 'images/traffic.jpg' %}" width="150" height="100" alt="City"></th>
     </tr>
     <tr>
-    <th>Road</th>
-    <th>Mountain</th>
-    <th>Forrest</th>
-      <th>City</th>
+    <th>auf der Straße</th>
+    <th>in den Bergen</th>
+    <th>im Wald</th>
+      <th>in der Stadt</th>
   </tr>
 
 </table>
@@ -42,7 +42,7 @@
 </form>
 -->
 <form action="/home/" method="post">{% csrf_token %}
-    <label for="home">Return to the Homepage:</label>
+    <label for="home">Zurück zur Startseite:</label>
     <input type="submit" name="home" id="home" value="Home"/>
 </form>
 </body>
