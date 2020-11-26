@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
     dependencies = [
     ]
 
-    operations = [
+    operations = (
         migrations.CreateModel(
             name='BewertungItem',
             fields=[
@@ -18,4 +18,4 @@ class Migration(migrations.Migration):
                 ('content', models.TextField()),
             ],
         ),
-    ]
+    )
