@@ -21,28 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f570bb05-fddb-4666-870c-ee1f2f3b2b74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bewertung/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/bewertung/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bewertung/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/bewertung/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bergig.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bergig.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bergignormal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bergignormal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bergigsprung.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bergigsprung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bewertung.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bewertung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bikes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bikes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/ebike.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ebike.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/electric.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electric.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/stadt.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stadt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/stadtfalt.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stadtfalt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/stadtnormal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stadtnormal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/strasse.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/strasse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/strassenormal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/strassenormal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/strassesportlich.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/strassesportlich.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/todo.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/wald.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wald.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/waldnormal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waldnormal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/waldsportlich.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waldsportlich.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606128271596</updated>
       <workItem from="1606128275161" duration="14910000" />
-      <workItem from="1606208116206" duration="30275000" />
+      <workItem from="1606208116206" duration="30597000" />
     </task>
     <servers />
   </component>
@@ -174,25 +156,25 @@
       <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
     <state x="-1725" y="106" key="#Inspections/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606416621106" />
-    <state width="1081" height="150" key="GridCell.Tab.0.bottom" timestamp="1606417493979">
+    <state width="1081" height="150" key="GridCell.Tab.0.bottom" timestamp="1606417509530">
       <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
-    <state width="1081" height="150" key="GridCell.Tab.0.bottom/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417493979" />
+    <state width="1081" height="150" key="GridCell.Tab.0.bottom/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417509529" />
     <state width="1133" height="150" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606407484940" />
-    <state width="1081" height="150" key="GridCell.Tab.0.center" timestamp="1606417493977">
+    <state width="1081" height="150" key="GridCell.Tab.0.center" timestamp="1606417509528">
       <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
-    <state width="1081" height="150" key="GridCell.Tab.0.center/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417493977" />
+    <state width="1081" height="150" key="GridCell.Tab.0.center/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417509528" />
     <state width="1133" height="150" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606407484937" />
-    <state width="1081" height="150" key="GridCell.Tab.0.left" timestamp="1606417493975">
+    <state width="1081" height="150" key="GridCell.Tab.0.left" timestamp="1606417509527">
       <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
-    <state width="1081" height="150" key="GridCell.Tab.0.left/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417493975" />
+    <state width="1081" height="150" key="GridCell.Tab.0.left/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417509527" />
     <state width="1133" height="150" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606407484931" />
-    <state width="1081" height="150" key="GridCell.Tab.0.right" timestamp="1606417493978">
+    <state width="1081" height="150" key="GridCell.Tab.0.right" timestamp="1606417509528">
       <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
-    <state width="1081" height="150" key="GridCell.Tab.0.right/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417493978" />
+    <state width="1081" height="150" key="GridCell.Tab.0.right/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417509528" />
     <state width="1133" height="150" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606407484940" />
     <state x="-1840" y="56" key="SettingsEditor" timestamp="1606409336173">
       <screen x="-1920" y="-168" width="1920" height="1177" />
