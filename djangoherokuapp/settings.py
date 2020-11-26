@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'bikes',
     'home',
     'todo',
+    'kontakt',
 ]
 
 MIDDLEWARE = [
