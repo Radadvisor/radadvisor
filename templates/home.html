@@ -2,21 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Radvisory</title>
+    <title>beRADung</title>
      <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}"/>
 </head>
 <body>
 <div class="page-header">
-    <h1><a href="/">This is the Homepage of Radvisory</a></h1>
+    <h1><a href="/">Willkommen beim der be<b>RAD</b>ung</a></h1>
 </div>
-<p>Feel welcome and cozy with this images</p>
-<img src="{% static 'images/tm-bg-section-4.jpg' %}" width="600" height="400" alt="Cozy image">
 </br>
+<img src="{% static 'images/fahrraeder.jpg' %}" width="1019" height="571" alt="Fahrräder">
 </br>
-</br>
-</br>
-</br>
-</br>
+<p >Wir können dir helfen!</p>
+<p >Wir, das sind Frauke, Viola, Jonas, Marco & Felix von be<b>RAD</b>ung, ein junges Startup aus der Smart Startup Garage der Hochschule Harz.</p>
+<p>Unsere Vison ist es, Leute beim Online-Kauf wie im Geschäft zu beraten und das optimale Produkt für sie zu finden!</p>
+<p> Mit Be<b>RAD</b> findest du das passende Fahrrad für dich!</p>
 </br>
 </br>
 <!--
@@ -27,8 +26,8 @@
 -->
 </br>
 <form action="/products/" method="post">{% csrf_token %}
-    <label for="rad">Go to the Radvisory:</label>
-    <input type="image" src="{% static 'images/bikerad.JPG' %}" width="60" height="40" name="rad" id="rad" value="Radvisory"/>
+    <label for="rad">Mit nur einem Klick geht es los!:</label>
+    <input type="image" src="{% static 'images/bikerad.JPG' %}" width="130" height="130" name="rad" id="rad" value="Radvisory"/>
 </form>
 <!--
 <form action="/about/" method="post">{% csrf_token %}
@@ -36,5 +35,6 @@
     <input type="image" src="{% static 'images/copy.JPG' %}" width="60" height="40" name="rad" id="rad" value="Radvisory"/>
 </form>
 -->
+
 </body>
 </html>
