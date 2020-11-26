@@ -45,13 +45,13 @@
                     <td></td>
                     <td align="center">
                         <form action="/bikes/strasse/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/road.JPG' %}" width="150" height="100" name="road" id="road" value="Road"/>
+                            <input type="image" src="{% static 'images/road.jpg' %}" width="150" height="100" name="road" id="road" value="Road"/>
                             <label for="road">Straße</label>
                         </form>
                     </td>
                     <td align="center">
                         <form action="/bikes/bergig/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/mountain-biking.JPG' %}" width="150" height="100" name="mountain" id="mountain" value="Mountain"/>
+                            <input type="image" src="{% static 'images/mountain-biking.jpg' %}" width="150" height="100" name="mountain" id="mountain" value="Mountain"/>
                             <label for="mountain">Berge</label>
                         </form>
                     </td>
@@ -61,13 +61,13 @@
                     <td></td>
                     <td align="center">
                         <form action="/bikes/wald/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/trees.JPG' %}" width="150" height="100" name="forrest" id="forrest" value="Forrest"/>
+                            <input type="image" src="{% static 'images/trees.jpg' %}" width="150" height="100" name="forrest" id="forrest" value="Forrest"/>
                             <label for="forrest">Wald/Kies</label>
                         </form>
                     </td>
                     <td align="center">
                         <form action="/bikes/stadt/" method="post">{% csrf_token %}
-                            <input type="image" src="{% static 'images/traffic.JPG' %}" width="150" height="100" name="city" id="city" value="City"/>
+                            <input type="image" src="{% static 'images/traffic.jpg' %}" width="150" height="100" name="city" id="city" value="City"/>
                             <label for="city">Stadt</label>
                         </form>
                     </td>
