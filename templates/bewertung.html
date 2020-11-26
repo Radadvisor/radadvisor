@@ -37,11 +37,11 @@
           <ul>
               {% for bewertung_item in all_items %}
               <li>{{ bewertung_item.content }}
-                  <form action="/deletebewertung/{{bewertung_item.id}}/"
+                  <!--form action="/deletebewertung/{{bewertung_item.id}}/"
                   style="display: inline;"
                   method="post">{% csrf_token %}
                 <input type="submit" value="Delete"/>
-                  </form>
+                  </form -->
               </li>
               {% endfor %}
           </ul>
