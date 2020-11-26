@@ -23,7 +23,7 @@
                         <a class="nav-item nav-link" href="/home">Home</a>
                         <a class="nav-item nav-link" href="/bikes">BeRADung</a>
                         <a class="nav-item nav-link" href="/kontakt">Kontakt</a>
-                        <a class="nav-item nav-link" href="/todo">Todo List</a>
+                        <a class="nav-item nav-link" href="/bewertung">Gib uns gern Feedback</a>
                     </div>
             <!-- Navbar Right Side -->
                 </div>
@@ -33,11 +33,11 @@
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-8">
-            <p>This is just a random Todo-List</p>
+            <p>Hier sind die bisherigen Bewertungen der Website</p>
           <ul>
-              {% for todo_item in all_items %}
-              <li>{{ todo_item.content }}
-                  <form action="/deleteTodo/{{todo_item.id}}/"
+              {% for bewertung_item in all_items %}
+              <li>{{ bewertung_item.content }}
+                  <form action="/deletebewertung/{{bewertung_item.id}}/"
                   style="display: inline;"
                   method="post">{% csrf_token %}
                 <input type="submit" value="Delete"/>
@@ -45,7 +45,7 @@
               </li>
               {% endfor %}
           </ul>
-            <form action="/addTodo/" method="post">{% csrf_token %}
+            <form action="/addbewertung/" method="post">{% csrf_token %}
                 <input type="text" name="content"/>
                 <input type="submit" value="Add"/>
             </form>
