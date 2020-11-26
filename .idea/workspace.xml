@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f570bb05-fddb-4666-870c-ee1f2f3b2b74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoherokuapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoherokuapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bikes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bikes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606128271596</updated>
       <workItem from="1606128275161" duration="14910000" />
-      <workItem from="1606208116206" duration="11206000" />
+      <workItem from="1606208116206" duration="11272000" />
     </task>
     <servers />
   </component>
