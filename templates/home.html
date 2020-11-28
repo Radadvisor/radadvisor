@@ -1,24 +1,23 @@
 {% load static %}
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>beRADung</title>
-        <link rel="icon" type="image/x-icon" href="{% static 'images/Logo2.ico' %}">
-    <link rel="icon" type="image/x-icon" href="{% static 'images/Logo2.ico' %}">
+	    <link rel="icon" type="image/x-icon" href="{% static 'images/Logo2.ico' %}">
      <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/-->
     <link rel="stylesheet" type="text/css" href="{% static 'CSS/main1.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'CSS/test.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'CSS/main.css' %}"/>
     <link rel="stylesheet" href="https://pagecdn.io/lib/easyfonts/bruno-ace.css"/>
 </head>
 <body>
 <header class="site-header">
         <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
             <div class="container">
-                <a class="navbar-brand mr-4" href="/">beRADung</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <a class="navbar-brand mr-4" href="/"><span>be<span style="color:#b82f2f">RAD<span style="color:#ffffff">ung</span></span></span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggle">
@@ -35,89 +34,61 @@
     </header>
     <main role="main" class="container">
       <div class="row">
-        <div class="col-md-6">
-            <p><b>Willkommen auf der Website vom Startup be<b>RAD</b>ung</b></p>
-            <img src="{% static 'images/Logo3.png' %}" width="539" height="357" alt="Logo">
-            </br>
-            </br>
-            <p><big><b>Unsere Vison:</b></big></p>
-            </br>
-            <p><big>Wir wollen Leute beim Online-Shopping unterstützen und ihnen auch im Internet eine Fachberatung ermöglichen!</big></p>
-            </br>
-             <p><big>Mit uns findest du das passenende Fahrrad für dich!</big></p>
-            <p><big><b><a href="/electric">Starte hier deine persönliche beRADung!</a><b></big></p>
-            </br>
-            </br>
-            <p><big>Lerne das beRADung-Team kennen:</big></p>
-
+        <div class="col-md-10">
+            <div class="content-section">
+                <p><b>Wir sind Studierende der Hochschule Harz in Wernigerode.
+                        Im Wintersemester 2020 entwickelten wir gemeinsam die Idee für das Start Up beRADung.
+                </b></p>
+                <p><b>Unsere Vision:</b> Wir wollen unsere Kund*innen schnell, einfach und überall zu ihrem Fahrrad beraten!
+                        Einkaufen soll nicht nur im Kaufprozess, sondern bereits im Beratungsprozess revolutioniert werden.
+                        Keine langen Online-Recherchen mehr, kein müßiges Laden-Abklappern. Mit uns finden Kund*innen genau ihr Fahrrad –
+                        unkompliziert und in wenigen Schritten.
+                </p>
+                <p>Um die Vision umzusetzen, brauchen wir jedoch zunächst Freiwillige, die die erste Version unseres Produktes testen.
+                        Alles was Du tun musst: Dich auf unserer Seite beraten lassen und am Ende einen kurzen Fragebogen zu deiner Erfahrung ausfüllen.
+                        Vielleicht ist am Ende sogar ein Fahrrad für Dich dabei!
+                </p>
+                <p> Wir arbeiten in unserer ersten Version mit dem Online-Fahrradhändler „BadBikes“ zusammen, auf dessen Seite wir Dich am Ende der Befragung weiterleiten werden.
+                        Wenn der Test erfolgreich ist, bieten wir in den späteren Versionen
+                </p>
+            </div>
         </div>
-            <table style="width:100%">
-                <tr>
-                    <td>
-                        <div class="col-md-10">
+          <div class="col-md-4">
+              <div class="content section">
+                  <table>
+                      <td>
+                          <span style="white-space:nowrap"><b>Hier gehts zur beRADung:</b></span>
+                      </td>
+                      <td>
+                          <form action="/electric/" methode="post">{% csrf_token %}
+                              <input type="image" src="{% static 'images/Logo1Button.png' %}" width=280 height=250 name="beradung" id="beradung" value="BeRADung"/>
+                          </form>
+                      </td>
+                  </table>
+          </div>
+      </div>
+
+      </div>
+           <div class="col-md-10">
                             <div class="content-section">
-                                <h3>Viola</h3>
-                                <p class='text-muted'>Viola - unsere Designexpertin
-                                <ul class="list-group">
-                                <li class="list-group-item list-group-item-light">Viola entwickelt alle Logo's und Desgin's.</li>
-                            </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="col-md-10">
-                            <div class="content-section">
-                                <h3>Frauke</h3>
-                                <p class='text-muted'>Frauke - unsere Marketingexpertin
+                                <h3>Lerne das be<b>RAD</b>ung-Team kennen.</h3>
+                                <p class='text-muted'>
                                 <ul class="list-group">
                                 <li class="list-group-item list-group-item-light">Frauke sorgt dafür, dass alle von uns hören und uns folgen!</li>
-                            </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="col-md-10">
-                            <div class="content-section">
-                                <h3>Jonas</h3>
-                                <p class='text-muted'>Jonas - unser Zahlenexperte
-                                <ul class="list-group">
                                 <li class="list-group-item list-group-item-light">Jonas sorgt dafür, dass am Ende die schwarze Null steht!</li>
-                            </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="col-md-10">
-                            <div class="content-section">
-                                <h3>Marco</h3>
-                                <p class='text-muted'>Marco - unser Geschäftführer
-                                <ul class="list-group">
                                 <li class="list-group-item list-group-item-light">Marco leitet all unsere Geschicke!</li>
+                                <li class="list-group-item list-group-item-light">Viola entwickelt alle Logo's und Desgin's.</li>
+                                <li class="list-group-item list-group-item-light">Felix sorgt dafür, dass die Website läuft!.</li>
                             </ul>
                                 </p>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <div class="col-md-10">
-                            <div class="content-section">
-                                <h3>Felix</h3>
-                                <p class='text-muted'>Felix - unser IT Experte
-                                <ul class="list-group">
-                                <li class="list-group-item list-group-item-light">Felix sorgt dafür, dass die Website läuft!</li>
-                            </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
       </div>
     </main>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
