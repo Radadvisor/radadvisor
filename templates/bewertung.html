@@ -35,7 +35,6 @@
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-8">
-                    <div class="content-section">
                 <p>Hier sind die bisherigen Bewertungen der Website</p>
           <ul>
               {% for bewertung_item in all_items %}
@@ -49,11 +48,12 @@
               {% endfor %}
           </ul>
             <form action="/addbewertung/" method="post">{% csrf_token %}
-                <input type="text" name="content"/>
-                <input type="submit" value="Add"/>
+                <textarea id="text" name="content" cols="40" rows="5"></textarea>
+                <div>
+                <input type="submit" value="Feedback geben"/>
+                    </div>
             </form>
         </div>
-      </div>
       </div>
     </main>
 <!-- Optional JavaScript -->
