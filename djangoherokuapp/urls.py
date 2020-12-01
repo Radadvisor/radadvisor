@@ -8,7 +8,7 @@ from bikes.views import bikes, wald, strasse, bergig, stadt, electric, ebike, wa
 
 
 
-urlpatterns = [
+urlpatterns = {
     path('', homepage),
     path('home/', homepage),
     path('bikes/', homepage),
@@ -28,8 +28,9 @@ urlpatterns = [
     path('noelectric/bikes/bergig/normal/', bergnormal),
     path('electric/', electric),
     path('kontakt/', kontakt),
+    path('products/', homepage),
     path('electric/ebike/', ebike),
     path('bewertung/', bewertunglist),
     path('addbewertung/', addbewertung),
     path('deletebewertung/<int:bewertung_id>/', deletebewertung),
-]
+}
