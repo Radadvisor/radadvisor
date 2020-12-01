@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f570bb05-fddb-4666-870c-ee1f2f3b2b74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bewertung.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bewertung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoherokuapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoherokuapp/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,8 @@
       <workItem from="1606467548383" duration="5202000" />
       <workItem from="1606576205540" duration="2228000" />
       <workItem from="1606579036190" duration="2732000" />
-      <workItem from="1606723936481" duration="2082000" />
+      <workItem from="1606723936481" duration="2175000" />
+      <workItem from="1606820369241" duration="28000" />
     </task>
     <servers />
   </component>
@@ -158,26 +158,26 @@
       <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
     <state x="-1725" y="106" key="#Inspections/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606416621106" />
-    <state width="1081" height="100" key="GridCell.Tab.0.bottom" timestamp="1606761658328">
+    <state width="1081" height="100" key="GridCell.Tab.0.bottom" timestamp="1606762137663">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1081" height="150" key="GridCell.Tab.0.bottom/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417509529" />
-    <state width="1081" height="100" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606761658328" />
-    <state width="1081" height="100" key="GridCell.Tab.0.center" timestamp="1606761658327">
+    <state width="1081" height="100" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606762137663" />
+    <state width="1081" height="100" key="GridCell.Tab.0.center" timestamp="1606762137662">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1081" height="150" key="GridCell.Tab.0.center/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417509528" />
-    <state width="1081" height="100" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606761658327" />
-    <state width="1081" height="100" key="GridCell.Tab.0.left" timestamp="1606761658326">
+    <state width="1081" height="100" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606762137662" />
+    <state width="1081" height="100" key="GridCell.Tab.0.left" timestamp="1606762137662">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1081" height="150" key="GridCell.Tab.0.left/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417509527" />
-    <state width="1081" height="100" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606761658326" />
-    <state width="1081" height="100" key="GridCell.Tab.0.right" timestamp="1606761658327">
+    <state width="1081" height="100" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606762137662" />
+    <state width="1081" height="100" key="GridCell.Tab.0.right" timestamp="1606762137662">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1081" height="150" key="GridCell.Tab.0.right/-1920.-168.1920.1177/0.23.1440.877@-1920.-168.1920.1177" timestamp="1606417509528" />
-    <state width="1081" height="100" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606761658327" />
+    <state width="1081" height="100" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606762137662" />
     <state x="-1840" y="56" key="SettingsEditor" timestamp="1606409336173">
       <screen x="-1920" y="-168" width="1920" height="1177" />
     </state>
